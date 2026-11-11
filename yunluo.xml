@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Redmi Pad (yunluo), LineageOS 24.0, build 20261111 -->
+  <project path="device/xiaomi/yunluo"
+           name="damnms/android_device_xiaomi_yunluo"
+           remote="github"
+           revision="refs/tags/yunluo-24.0-20261111"
+           upstream="lineage-24.0" />
+  <project path="device/xiaomi/yunluo-kernel"
+           name="damnms/android_device_xiaomi_yunluo-kernel"
+           remote="github"
+           revision="refs/tags/yunluo-24.0-20261111"
+           upstream="lineage-24.0"
+           clone-depth="1" />
+  <project path="vendor/xiaomi/yunluo"
+           name="damnms/android_vendor_xiaomi_yunluo"
+           remote="github"
+           revision="refs/tags/yunluo-24.0-20261111"
+           upstream="lineage-24.0"
+           clone-depth="1" />
+  <project path="hardware/mediatek"
+           name="damnms/android_hardware_mediatek"
+           remote="github"
+           revision="refs/tags/yunluo-24.0-20261111"
+           upstream="lineage-24.0" />
+
+  <!-- LineageOS, unchanged, pinned to the commits used for build 20261111 -->
+  <project path="device/mediatek/sepolicy_vndr"
+           name="LineageOS/android_device_mediatek_sepolicy_vndr"
+           revision="d76ed9b3f512decbb68f6641db86230aa595996e"
+           upstream="lineage-24.0" />
+  <project path="hardware/xiaomi"
+           name="LineageOS/android_hardware_xiaomi"
+           revision="7d23ca3fa1e34d349015d38db46832c554003540"
+           upstream="lineage-24.0" />
+</manifest>
