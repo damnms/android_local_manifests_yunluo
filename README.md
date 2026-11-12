@@ -8,15 +8,15 @@ LineageOS 24.0 (Android 17) for the Xiaomi Redmi Pad, codename `yunluo`
 
 | Path | Repository | Revision |
 | --- | --- | --- |
-| `device/xiaomi/yunluo` | [damnms/android_device_xiaomi_yunluo](https://github.com/damnms/android_device_xiaomi_yunluo) | tag `yunluo-24.0-20261111` |
-| `device/xiaomi/yunluo-kernel` | [damnms/android_device_xiaomi_yunluo-kernel](https://github.com/damnms/android_device_xiaomi_yunluo-kernel) | tag `yunluo-24.0-20261111` |
-| `vendor/xiaomi/yunluo` | [damnms/android_vendor_xiaomi_yunluo](https://github.com/damnms/android_vendor_xiaomi_yunluo) | tag `yunluo-24.0-20261111` |
-| `hardware/mediatek` | [damnms/android_hardware_mediatek](https://github.com/damnms/android_hardware_mediatek) | tag `yunluo-24.0-20261111` |
+| `device/xiaomi/yunluo` | [damnms/android_device_xiaomi_yunluo](https://github.com/damnms/android_device_xiaomi_yunluo) | tag `yunluo-24.0-20261111-2` |
+| `device/xiaomi/yunluo-kernel` | [damnms/android_device_xiaomi_yunluo-kernel](https://github.com/damnms/android_device_xiaomi_yunluo-kernel) | tag `yunluo-24.0-20261111-2` |
+| `vendor/xiaomi/yunluo` | [damnms/android_vendor_xiaomi_yunluo](https://github.com/damnms/android_vendor_xiaomi_yunluo) | tag `yunluo-24.0-20261111-2` |
+| `hardware/mediatek` | [damnms/android_hardware_mediatek](https://github.com/damnms/android_hardware_mediatek) | tag `yunluo-24.0-20261111-2` |
 | `device/mediatek/sepolicy_vndr` | LineageOS, unchanged | pinned commit |
 | `hardware/xiaomi` | LineageOS, unchanged | pinned commit |
 
 Every revision is fixed, so a sync always gives the exact sources of
-build `20261111`. The rest of the tree comes from the LineageOS manifest,
+build `20261111-2`. The rest of the tree comes from the LineageOS manifest,
 branch `lineage-24.0`.
 
 ## Usage
